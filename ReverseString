@@ -1,0 +1,17 @@
+public class MyClass {
+    public static void main(String args[]) {
+        Scanner in = new Scanner(System.in);
+        String run = in.nextLine();
+        System.out.println(ReverseStr(run));
+    }
+    public static String ReverseStr(String pog)
+    {
+        String print= "";
+        for(int i = p.length(); i>0; i--)
+        {
+            print+=p.substring(i-1,i);
+        }
+        return print;
+    }
+}
+//reverses the order of the string
