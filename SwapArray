@@ -14,3 +14,4 @@ public class Main {
         System.out.println(Arrays.toString(x));
     }
 }
+//this program switches every element in the array around, starting from the middle.
