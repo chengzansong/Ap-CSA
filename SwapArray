@@ -1,0 +1,16 @@
+import java.io.*;
+import java.util.*;
+public class Main {
+    public static void main(String args[]) {
+        int[] x={1,1,1,2,2};
+        int temp = x.length-1,temp2;
+        for(int i = 0; i < x.length/2;i++)
+        {
+            temp2=x[i];
+            x[i]=x[temp];
+            x[temp]=temp2;
+            temp--;
+        }
+        System.out.println(Arrays.toString(x));
+    }
+}
